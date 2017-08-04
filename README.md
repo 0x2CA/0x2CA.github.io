@@ -21,8 +21,6 @@
 3. 发布
     * `hexo d`
 4. 源文件上传
-    * `git add --all`
-    * `git commit -m '源文件'`
-    * `git push`
+    * `hexo b`
 
 
