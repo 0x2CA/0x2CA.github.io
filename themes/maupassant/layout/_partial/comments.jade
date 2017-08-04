@@ -1,3 +1,18 @@
+if theme.gitment
+    #container
+    link(rel='stylesheet', href='https://imsun.github.io/gitment/style/default.css')
+    script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
+    script.
+      var gitment = new Gitment({
+        owner: 'invalidcode',
+        repo: 'invalidcode.github.io',
+        oauth: {
+          client_id: '13bd3842cc8bca65266a',
+          client_secret: '3195356b376b098891ef48dc0f268040afe65797',
+        },
+      })
+      gitment.render('container')
+      
 if theme.duoshuo
   .ds-thread(data-thread-key=page.path, data-title=page.title, data-url=page.permalink, data-author-key='1')
 
@@ -14,18 +29,3 @@ if theme.disqus
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     script(id='dsq-count-scr', src='//#{theme.disqus}.disqus.com/count.js', async)
-
-if theme.gitment
-    #container
-    link(rel='stylesheet', href='https://imsun.github.io/gitment/style/default.css')
-    script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
-    script.
-      var gitment = new Gitment({
-        owner: 'InvalidCode',
-        repo: 'invalidcode.github.io',
-        oauth: {
-          client_id: '13bd3842cc8bca65266a',
-          client_secret: '3195356b376b098891ef48dc0f268040afe65797',
-        },
-      })
-      gitment.render('container')
