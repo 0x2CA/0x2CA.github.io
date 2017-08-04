@@ -1,4 +1,4 @@
-# 风的记忆 
+# 风的记忆
 
 ## 链接
 [博客](https://invalidcode.github.io)
@@ -20,6 +20,6 @@
 3. 发布
     * `hexo d`
 4. 源文件上传
-    * `hexo b`
-
-
+    * `git add --all`
+    * `git commit -m '源文件'`
+    * `git push -u origin hexo`
