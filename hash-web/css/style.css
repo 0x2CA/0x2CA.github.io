@@ -26,6 +26,14 @@ body{
     display: inline-block;
     font-size: 14px;
 }
+#queren:hover{
+	animation: 500ms yy;
+	box-shadow: 1px 2px 5px #696969;
+}
+@keyframes yy{
+	from{}
+	to{box-shadow: 1px 2px 5px #696969;}
+}
 #result{
 	margin-top: 10px;
 	width: 380px;
