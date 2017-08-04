@@ -16,7 +16,7 @@ Install theme and renderers:
 
 ```shell
 $ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
-$ npm install hexo-renderer-jade@0.3.0 --save
+$ npm install hexo-renderer-jade --save
 $ npm install hexo-renderer-sass --save
 ```
 
@@ -29,8 +29,6 @@ Default config:
 fancybox: true ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
 disqus: ## Your disqus_shortname, e.g. username
-uyan: ## Your uyan_id, e.g. 1234567
-gentie: ## Your gentie_productKey, e.g. fc799538c7ad4cf5a5a0c2877a90cbd7
 google_search: true ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
@@ -39,7 +37,6 @@ self_search: ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
-toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
@@ -94,8 +91,6 @@ version: 0.0.0
 - fancybox - Enable [Fancybox](http://fancyapps.com/fancybox/)
 - duoshuo - [Duoshuo](http://duoshuo.com) shortname
 - disqus - [Disqus](https://disqus.com) shortname
-- uyan - [Uyan](http://www.uyan.cc) id
-- gentie - [Gentie](https://gentie.163.com) productKey
 - google_search - Default search engine
 - baidu_search - Search engine for users in China
 - swiftype - [Swiftype Search](https://swiftype.com) key
@@ -104,7 +99,6 @@ version: 0.0.0
 - google_analytics - [Google Analytics](https://www.google.com/analytics/) tracking id
 - baidu_analytics - [Baidu Analytics](http://tongji.baidu.com) tracking id
 - show_category_count - Show the count of categories in the sidebar widget.
-- toc_number - Show the list number of toc.
 - shareto - Enable share button
 - busuanzi - Enable [Busuanzi](http://busuanzi.ibruce.info) page views
 - widgets_on_small_screens - Show the widgets at the bottom of small screens.
@@ -190,7 +184,7 @@ All kinds of contributions (enhancements, new features, documentation & code imp
 Looking forward to your pull request.
 
 ## Acknowledgements
-Thanks for all the [contributors](https://github.com/tufu9441/maupassant-hexo/graphs/contributors) of this theme.
+Thank [JamesPan](http://blog.jamespan.me) for his help to improve this theme
 .
 ## Maupassant on other platforms:
 + Typecho：https://github.com/pagecho/maupassant/
