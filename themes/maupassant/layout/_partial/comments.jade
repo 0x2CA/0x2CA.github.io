@@ -1,7 +1,7 @@
 if theme.gitment
     #container
-    link(rel='stylesheet', href='https://imsun.github.io/gitment/style/default.css')
-    script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
+    link(rel='stylesheet', href='/css/default.css')
+    script(src='/js/gitment.browser.js')
     script.
       var gitment = new Gitment({
         owner: 'invalidcode',
@@ -12,7 +12,7 @@ if theme.gitment
         },
       })
       gitment.render('container')
-      
+
 if theme.duoshuo
   .ds-thread(data-thread-key=page.path, data-title=page.title, data-url=page.permalink, data-author-key='1')
 
