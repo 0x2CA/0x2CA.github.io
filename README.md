@@ -4,9 +4,10 @@
 [博客](https://invalidcode.github.io)
 ## 文件说明
 1. `package.json`hexo环境
-    * npm install --save
+    * `npm install --save`
 2. `_config.yml`hexo配置文件
 3. `.gitmodules`git子模块
+    * `git submodule`
 4. `.gitignore`git排除配置
 5. `themes/maupassant`主题文件
 6. `source`文章源文件
