@@ -87,5 +87,5 @@ backup:
     type: git
     message: 源文件
     repository:
-       git: git@github.com:InvalidCode/InvalidCode.github.io.git,hexo
+       github: git@github.com:InvalidCode/InvalidCode.github.io.git,hexo
        gitcafe: git@github.com:InvalidCode/InvalidCode.github.io.git,hexo
