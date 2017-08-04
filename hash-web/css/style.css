@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+}
+
+#main{
+	height: 300px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+#world{
+	width: 300px;
+	padding: 5px;
+	margin-top: 5%;
+	margin-left: 10px;
+}
+#queren{
+	background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#result{
+	margin-top: 10px;
+	width: 380px;
+	height: 90px;
+	margin-left: 10px;
+}
+.result{
+	border: aquamarine solid 1px;
+	color: cadetblue;
+}
+
+.result_err{
+	color: red;	
+}
+p{
+	text-align: center;
+}
+
+#title_{
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+h1{
+	color: dimgray;
+}
