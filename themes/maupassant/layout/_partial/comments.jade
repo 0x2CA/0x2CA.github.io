@@ -1,14 +1,14 @@
-if theme.gitment
+if theme.gitment.enable
     #container
     link(rel='stylesheet', href='/css/default.css')
     script(src='/js/gitment.browser.js')
     script.
       var gitment = new Gitment({
-        owner: 'invalidcode',
-        repo: 'invalidcode.github.io',
+        owner: '#{theme.gitment.owner}',
+        repo: '#{theme.gitment.repo}',
         oauth: {
-          client_id: '13bd3842cc8bca65266a',
-          client_secret: '3195356b376b098891ef48dc0f268040afe65797',
+          client_id: '#{theme.gitment.client_id}',
+          client_secret: '#{theme.gitment.client_secret}',
         },
       })
       gitment.render('container')

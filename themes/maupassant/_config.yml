@@ -12,7 +12,13 @@ show_category_count: false ## If you want to show the count of categories in the
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
-gitment: true
+canvas_nest: true ##动态背景
+gitment:
+  enable: true  ##gitment评论系统
+  owner: 'invalidcode'
+  repo: 'invalidcode.github.io'
+  client_id: '13bd3842cc8bca65266a'
+  client_secret: '3195356b376b098891ef48dc0f268040afe65797'
 
 menu:
   - page: home
