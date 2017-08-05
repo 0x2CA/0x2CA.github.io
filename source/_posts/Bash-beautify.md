@@ -1,7 +1,7 @@
 ---
 title: Bash美化
 date: 2016-09-03 13:45:14
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

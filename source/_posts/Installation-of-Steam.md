@@ -1,7 +1,7 @@
 ---
 title: Steam的安装
 date: 2016-08-30 09:58:47
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

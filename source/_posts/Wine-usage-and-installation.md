@@ -1,7 +1,7 @@
 ---
 title: wine使用及安装
 date: 2016-10-04 15:41:30
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

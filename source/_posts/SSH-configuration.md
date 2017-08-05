@@ -1,7 +1,7 @@
 ---
 title: SSH配置
 date: 2016-09-02 15:53:07
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

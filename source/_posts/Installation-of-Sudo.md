@@ -1,7 +1,7 @@
 ---
 title: Sudo的安装
 date: 2016-08-30 10:18:40
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

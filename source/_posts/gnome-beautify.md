@@ -1,7 +1,7 @@
 ---
 title: gnome美化
 date: 2016-09-02 07:49:38
-tags: [教程,收集]
+tags: [Course,Collect]
 category: [Linux]
 toc: true
 comments: true

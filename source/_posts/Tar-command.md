@@ -1,7 +1,7 @@
 ---
 title: Tar命令
 date: 2016-08-29 16:49:56
-tags: [教程,命令]
+tags: [Course,Command]
 category: [Linux]
 toc: true
 comments: true

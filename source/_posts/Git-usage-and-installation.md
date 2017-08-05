@@ -1,7 +1,7 @@
 ---
 title: Git安装与使用
 date: 2016-08-29 15:39:15
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

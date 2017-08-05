@@ -1,7 +1,7 @@
 ---
 title: ArchLinux安装指南
 date: 2016-10-04 16:16:04
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

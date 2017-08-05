@@ -1,7 +1,7 @@
 ---
 title: Arch Linux 中文社区仓库
 date: 2016-08-30 10:13:31
-tags: [教程]
+tags: [Course]
 category: [Linux]
 toc: true
 comments: true

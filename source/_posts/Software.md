@@ -1,7 +1,7 @@
 ---
 title: 软件
 date: 2016-08-31 12:50:30
-tags: [收集]
+tags: [Collect]
 category: [Linux]
 toc: true
 comments: true
