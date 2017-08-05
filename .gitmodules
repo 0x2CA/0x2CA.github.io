@@ -1,3 +1,6 @@
 [submodule ".deploy_git"]
 	path = .deploy_git
 	url = git@github.com:InvalidCode/InvalidCode.github.io
+[submodule "source/donate"]
+	path = source/donate
+	url = git@github.com:InvalidCode/donate.git
