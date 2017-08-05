@@ -29,7 +29,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 # 排除渲染
 skip_render:
-  - about/simple/*
+  - donate/*
   - hash-web/*
 
 # Writing
