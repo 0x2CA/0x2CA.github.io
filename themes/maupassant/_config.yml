@@ -42,8 +42,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: Hexo
-    url: https://hexo.io/zh-cn/
+  - title: love
+    url: /love/
 
 
 timeline:

@@ -69,3 +69,6 @@ PS1='[\[\033[1;31m\]\u\[\033[0m\]@\[\033[1;32m\]\h \[\033[1;36m\]\W\[\033[0m\]]\
 * \\     反斜杠
 * \[     表示跟在后面的是非打印字符，可用于shell的颜色控制
 * \]     表示非打印字符结束
+
+<iframe src="https://invalidcode.github.io/donate/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
+
