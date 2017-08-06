@@ -1,9 +1,6 @@
 [submodule ".deploy_git"]
 	path = .deploy_git
 	url = git@github.com:InvalidCode/InvalidCode.github.io.git
-[submodule "source/donate"]
-	path = source/donate
-	url = git@github.com:InvalidCode/donate.git
 [submodule "themes/maupassant"]
 	path = themes/maupassant
 	url = git@github.com:InvalidCode/maupassant-hexo.git
