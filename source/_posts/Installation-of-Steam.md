@@ -12,6 +12,8 @@ comments: true
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
+
+<!--more-->
 ## 同步 库
 ```
 $ sudo pacman -Syy

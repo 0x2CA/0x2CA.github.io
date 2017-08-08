@@ -15,6 +15,7 @@ $ sudo pacman -S openssh
 $ sudo systemctl enable sshd
 $ sudo reboot
 ```
+<!--more-->
 ## 配置
 `/etc/ssh/sshd_config`文件中添加：
 ```

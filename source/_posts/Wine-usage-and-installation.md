@@ -14,6 +14,7 @@ $ sudo pacman -S wine
 ```
 $ sudo nano /etc/pacman.conf
 ```
+<!--more-->
 ## 使用 mono gecko
 ```
 $ rm -rf ~/.wine

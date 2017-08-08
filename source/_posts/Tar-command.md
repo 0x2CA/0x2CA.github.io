@@ -37,6 +37,7 @@ $ tar [选项] [参数]
 -N <日期格式> 或 --newer=<日期时间>：只将较指定日期更新的文件保存到备份文件里； 
 --exclude=<范本样式>：排除符合范本样式的文件。
 ```
+<!--more-->
 ## 参数
 文件或目录：指定要打包的文件或目录列表。
 
@@ -57,5 +58,19 @@ $ tar -Jxvf log.tar.xz
 ```
 ### 保留文件权限:
 加`-p`
+
+## 系统备份
+说明：`--exclude`排除文件
+1. 普通备份
+
+```
+tar --exclude /proc --exclude /mnt --exclude /tmp --exclude /backup --exclude /sys --exclude /lost+found -Jcvpf /backup/system.tar.xz /
+```
+
+2. 多线程备份(依赖pixz)
+
+```
+tar --use-compress-program=pixz --exclude /proc --exclude /mnt --exclude /tmp --exclude /backup --exclude /sys --exclude /lost+found -cvpf /backup/system.tar.xz /
+```
 
 

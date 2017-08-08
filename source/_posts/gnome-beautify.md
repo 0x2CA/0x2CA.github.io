@@ -11,6 +11,8 @@ comments: true
 ```bash
 $ sudo pacman -S gnome-tweak-tool
 ```
+
+<!--more-->
 ## 中文 字体
 ```bash
 $ sudo pacman -S wqy-zenhei

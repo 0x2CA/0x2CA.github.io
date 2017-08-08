@@ -10,6 +10,8 @@ comments: true
 ```bash
 $ sudo pacman -S git
 ```
+
+<!--more-->
 ## 设置
 ```bash
 $ git config --global user.name "用户名"

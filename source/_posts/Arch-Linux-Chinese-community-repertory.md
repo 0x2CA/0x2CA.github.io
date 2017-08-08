@@ -13,6 +13,7 @@ comments: true
 SigLevel = Optional TrustedOnly
 Server = http://repo.archlinuxcn.org/$arch
 ```
+<!--more-->
 ## 同步 库
 ```bash
 $ sudo pacman -Syy

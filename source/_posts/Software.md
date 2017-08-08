@@ -20,6 +20,7 @@ $ sudo pacman -S gnome-tweak-tool
 ```bash
 $ sudo pacman -S atom
 ```
+<!--more-->
 ## Visual Studio Code
 ```bash
 $ sudo pacman -S visual-studio-code

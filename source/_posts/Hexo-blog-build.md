@@ -11,6 +11,7 @@ comments: true
 * Node.js
 * Git
 
+<!--more-->
 ## 安装 Git
 ```bash
 $ sudo pacman -S git

@@ -4,6 +4,7 @@ toc: true
 comments: true
 date: 2017-08-08 09:34:45
 tags: [Course,Html]
+category: [Web]
 ---
 
 ## 基本选择器
@@ -15,6 +16,8 @@ tags: [Course,Html]
 | #id | ID选择器| 选择指定ID属性值为“id”的任意类型元素|
 | .class | 类选择器| 选择指定class属性值为“class”的任意类型的任意多个元素 |
 | selector1,selector2 | 群组选择器| 将每一个选择器匹配的元素集合并|
+
+<!--more-->
 
 ## 层次选择器
 ### 子代选择器

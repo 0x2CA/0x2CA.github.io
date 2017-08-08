@@ -10,6 +10,8 @@ comments: true
 ```bash
 $ pacman -S sudo
 ```
+
+<!--more-->
 ## 配置 Sudo
 `/etc/sudoers`文件中添加：
 ```
