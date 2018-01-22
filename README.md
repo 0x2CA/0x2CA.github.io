@@ -1,7 +1,7 @@
 # 风的记忆
 
 ## 链接
-[博客](https://invalidcode.github.io)
+[博客](https://ChoicePhobiaDisorder.github.io)
 ## 文件说明
 1. `package.json`hexo环境
     * npm install --save
