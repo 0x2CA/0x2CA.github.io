@@ -4,6 +4,7 @@
 [博客](https://ChoicePhobiaDisorder.github.io)
 ## 文件说明
 1. `package.json`hexo环境
+    * npm install -g
     * npm install --save
 2. `_config.yml`hexo配置文件
 3. `.gitmodules`git子模块
