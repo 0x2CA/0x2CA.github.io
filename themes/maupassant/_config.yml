@@ -3,12 +3,6 @@ uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
-gitment:
-  enable: false
-  owner: "0x2CA"
-  repo: "0x2CA.github.io"
-  client_id: "8442f6acdf3130c95cf9"
-  client_secret: "ef4ad1b67fa8423667fc1c0e10fc620975974ab3"
 gitalk:
   enable: true ## If you want to use Gitment comment system please set the value to true.
   owner: "0x2CA" ## Your GitHub ID, e.g. username
