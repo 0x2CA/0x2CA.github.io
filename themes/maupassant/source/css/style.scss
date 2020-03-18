@@ -266,7 +266,7 @@ div {
         padding-top: 15px;
         text-align: justify;
         text-justify: distribute;
-        word-break: break-all;
+        word-break: normal;
         h2 {
             margin: 1.4em 0 1.1em;
             border-bottom: 1px solid #eee;
@@ -280,16 +280,19 @@ div {
         }
         p {
             margin: 0 0 1.234em;
+            word-break: break-word;
+            overflow-wrap: break-word;
             code {
                 display: inline-block;
                 margin: 0 5px;
                 padding: 0 5px;
                 background: #f7f8f8;
+                font-family: Menlo, Consolas, monospace !important;
             }
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
                 }
@@ -326,13 +329,40 @@ div {
                 margin: 0 5px;
                 padding: 0px 5px;
                 background: #f7f8f8;
+                font-family: Menlo, Consolas, monospace !important;
             }
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
+                }
+            }
+        }
+        .tagcloud {
+            margin: 0 0 30px 0;
+            a {
+                padding:0px 5px;
+                margin:3px;
+                display: inline-block;
+                border: 1px solid #808080;
+                border-radius: 999em;
+                color: #aaa;
+                &:hover {
+                    color: #fff;
+                    border: 1px solid #808080;
+                    background: #808080;
+                }
+            }
+        }
+        .one-tag-list {
+            margin: 30px 0;
+            .tag-name {
+                .tag-text{
+                    margin-left: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
                 }
             }
         }
@@ -911,10 +941,7 @@ figure.highlight,
         background:   #f7f8f8;
         border-right: 1px solid #e6e6e6;
         padding:      0.3em 15px;
-
-        .line {
-            color: #aaaaaa;
-        }
+        user-select:  none;
     }
     // Code container
     .code {
@@ -941,6 +968,7 @@ figure.highlight,
         font-family: Menlo, Consolas, monospace;
         font-size:   1em;
         margin:      0 0 5px 0;
+        user-select: none;
     }
 }
 
@@ -1027,6 +1055,18 @@ figure.highlight,
             color: #0086b3;
         }
     }
+    // Clojure
+    &.clj .code {
+        .builtin-name {
+            color: #df5000;
+        }
+        .name {
+            color: #795da3;
+        }
+        .number {
+            color: #0086b3;
+        }
+    }
     // C#
     &.cs .code {
         .preprocessor,
@@ -1077,15 +1117,15 @@ figure.highlight,
     &.diff .code {
         .chunk,
         .meta {
-            color:       #795da3;
+            color: #795da3;
             font-weight: bold;
         }
         .addition {
-            color:            #55a532;
+            color: #55a532;
             background-color: #eaffea;
         }
         .deletion {
-            color:            #bd2c00;
+            color: #bd2c00;
             background-color: #ffecec;
         }
     }
@@ -1308,7 +1348,8 @@ figure.highlight,
         }
     }
     // XML, HTML
-    &.xml {
+    &.xml,
+    &.html {
         .tag {
             color: #333;
         }
@@ -1361,6 +1402,15 @@ figure.highlight,
         .selector-class,
         .selector-tag {
             color: #795da3;
+        }
+    }
+    // Lisp
+    &.lisp .code {
+        .name {
+            color: #df5000;
+        }
+        .number {
+            color: #0086b3;
         }
     }
     // SCSS
@@ -1713,4 +1763,17 @@ em.search-keyword {
   color: #fff;
   background-color: #999999;
   text-shadow: 0
+}
+
+
+// Custom styles.
+.post-copyright {
+    margin: 2em 0 0;
+    padding: 0.5em 1em;
+    border-left: 3px solid #FF1700;
+    background-color: #F9F9F9;
+    list-style: none;
+    li {
+        margin: 8px 0;
+    }
 }

@@ -7,18 +7,21 @@
 title: 风的记忆
 subtitle:
 description: 一个在普通人中挣扎的程序员的笔记
-author: Unknown
+author: 0x2CA
 email: 2478557459@qq.com
 language: zh-CN
-timezone:
+timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ChoicePhobiaDisorder.github.io/
+url: https://0x2CA.github.io/
 root: /
+## 连接样式
 #permalink: :year/:month/:day/:title/
-permalink: Html/:title/
-permalink_defaults: Html/:title/
+permalink: :category/:title/
+permalink_defaults: :category/:title/
+pretty_urls:
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from
 
 # Directory
 source_dir: source
@@ -29,9 +32,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 # 排除渲染
-skip_render:
-  - donate/*
-  - hash-web/*
+#skip_render:
+#  - donate/*
+#  - hash-web/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -58,18 +61,18 @@ tag_map:
 
 ##归档分页设置
 archive_generator:
-  per_page: 18000
+  per_page: 50
   yearly: false
   monthly: false
   daily: false
 
 ##分类分页设置
 category_generator:
-  per_page: 18000
+  per_page: 25
 
 ##标签分页设置
 tag_generator:
-  per_page: 18000
+  per_page: 25
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -88,8 +91,8 @@ time_format: HH:mm:ss
 # npm install hexo-generator-search --save
 search:
   path: search.xml
-  # 如只想索引文章，可设置为post
-  field: all
+  # 如只想索引文章，可设置为post,想搜索全部可以设置为all
+  field: post
 
 # 主题配置
 # Extensions
@@ -102,5 +105,5 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:ChoicePhobiaDisorder/ChoicePhobiaDisorder.github.io.git
+  repository: git@github.com:0x2CA/0x2CA.github.io.git
   branch: master
