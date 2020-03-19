@@ -83,7 +83,7 @@ pagination_dir: page
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY年MM月DD日
 time_format: HH:mm:ss
 
 # 自定义站点内容搜索
