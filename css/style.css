@@ -304,9 +304,7 @@ div {
     padding-bottom: 1em; }
     .post .tags a {
       margin-right: .5em; }
-      .post .tags a:before {
-        font-family: "FontAwesome";
-        content: "\f0c6";
+      .post .tags a i {
         padding-right: 0.3em; }
 
 .page-navigator {
