@@ -7,8 +7,8 @@ gitalk:
   enable: true ## If you want to use Gitment comment system please set the value to true.
   owner: "0x2CA" ## Your GitHub ID, e.g. username
   repo: "0x2CA.github.io" ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-  client_id:  "8442f6acdf3130c95cf9" ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret:  "ef4ad1b67fa8423667fc1c0e10fc620975974ab3" ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
+  client_id: "8442f6acdf3130c95cf9" ## GitHub client ID, e.g. 75752dafe7907a897619
+  client_secret: "ef4ad1b67fa8423667fc1c0e10fc620975974ab3" ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
   admin: "0x2CA" ## Github repo owner and collaborators, only these guys can initialize github issues.
 valine: ## https://valine.js.org
   enable: false ## If you want to use Valine comment system, please set the value to true.
@@ -53,6 +53,7 @@ post_copyright:
   enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
   author: "0x2CA" ## Your author name, e.g. tufu9441
   copyright_text: 版权归作者所有，转载请注明出处。 ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
+love: true
 
 menu:
   - page: home
