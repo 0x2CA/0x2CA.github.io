@@ -56,8 +56,8 @@ post_copyright:
 love: true
 plantuml:
   render: "PlantUMLServer"
-  # common options: svg/png
   outputFormat: "svg"
+copycode: true
 
 menu:
   - page: home
