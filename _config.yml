@@ -107,3 +107,9 @@ deploy:
   type: git
   repository: git@github.com:0x2CA/0x2CA.github.io.git
   branch: master
+
+# 图片懒加载 必须要安装hexo-lazyload-image
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: /img/loading.gif

@@ -48,7 +48,14 @@ $ npm install hexo-helper-qrcode --save
 ```
 npm install hexo-filter-plantuml --save
 ```
-
+7. 文件统计功能需要安装
+```
+npm install hexo-wordcount --save
+```
+8. 图片懒加载需要安装
+```
+npm install hexo-lazyload-image --save
+```
 ## 项目文件说明
 1. `package.json`hexo环境
     * npm install -g
