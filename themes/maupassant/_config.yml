@@ -54,6 +54,10 @@ post_copyright:
   author: "0x2CA" ## Your author name, e.g. tufu9441
   copyright_text: 版权归作者所有，转载请注明出处。 ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 love: true
+plantuml:
+  render: "PlantUMLServer"
+  # common options: svg/png
+  outputFormat: "svg"
 
 menu:
   - page: home

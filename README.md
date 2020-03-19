@@ -44,6 +44,10 @@ $ npm install hexo-generator-feed --save
 ```
 $ npm install hexo-helper-qrcode --save
 ```
+6. 如果想使用plantuml需要安装
+```
+npm install hexo-filter-plantuml --save
+```
 
 ## 项目文件说明
 1. `package.json`hexo环境
