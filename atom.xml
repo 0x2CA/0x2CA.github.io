@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>风的记忆</title>
   <icon>https://www.gravatar.com/avatar/7e419bf37aa9b1dd94b62e60b8b5cefa</icon>
-  
+  <subtitle>一个在普通人中挣扎的程序员的笔记</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0x2ca.github.io/"/>
