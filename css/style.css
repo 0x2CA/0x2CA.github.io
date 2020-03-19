@@ -300,12 +300,10 @@ div {
         margin-left: 5px;
         font-size: 16px;
         font-weight: bold; }
-  .post .tags {
-    padding-bottom: 1em; }
-    .post .tags a {
-      margin-right: .5em; }
-      .post .tags a i {
-        padding-right: 0.3em; }
+  .post .tags a {
+    margin-right: .5em; }
+    .post .tags a i {
+      padding-right: 0.3em; }
 
 .page-navigator {
   border-top: 1px solid #ddd;
