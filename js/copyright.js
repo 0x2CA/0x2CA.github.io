@@ -1,17 +1,3 @@
-!function (e, t, a) {
-    var script = document.currentScript || (function () {
-        var scripts = document.getElementsByTagName("script");
-        return scripts[scripts.length - 1]
-    })()
-    var successText = $(script).attr("successtext")
-    var clipboard = new ClipboardJS('.fa-clipboard');
-    clipboard.on('success', function () {
-        if (successText) {
-            toastr.options = {
-                "positionClass": "toast-top-center",
-                "timeOut": "1000",
-            }
-            toastr.success(successText)
-        }
-    });
-}(window, document);
+// build time:Fri Mar 20 2020 18:19:30 GMT+0800 (GMT+08:00)
+!function(t,n,e){var o=document.currentScript||function(){var t=document.getElementsByTagName("script");return t[t.length-1]}();var s=$(o).attr("successtext");var c=new ClipboardJS(".fa-clipboard");c.on("success",function(){if(s){toastr.options={positionClass:"toast-top-center",timeOut:"1000"};toastr.success(s)}})}(window,document);
+//rebuild by neat 

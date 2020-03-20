@@ -1,19 +1,3 @@
-$(document).ready(function() {
-  $('img').each(function() {
-    if ($(this).parent().hasClass('fancybox')) return;
-    if ($(this).hasClass('nofancybox')) return;
-    var alt = this.alt;
-    if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-    $(this).wrap('<a href="' + ($(this).attr('data-src') == null ? this.src : $(this).attr('data-src')) + '" title="' + alt + '" class="fancybox"></a>');
-  });
-  $(this).find('.fancybox').each(function(){
-    $(this).attr('rel', 'article');
-  });
-});
-$(document).ready(function() {
-  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']").attr('rel', 'gallery').fancybox({
-    helpers : {
-    title: { type: 'inside'}
-    }
-  });
-});
+// build time:Fri Mar 20 2020 18:19:30 GMT+0800 (GMT+08:00)
+$(document).ready(function(){$("img").each(function(){if($(this).parent().hasClass("fancybox"))return;if($(this).hasClass("nofancybox"))return;var a=this.alt;if(a)$(this).after('<span class="caption">'+a+"</span>");$(this).wrap('<a href="'+($(this).attr("data-src")==null?this.src:$(this).attr("data-src"))+'" title="'+a+'" class="fancybox"></a>')});$(this).find(".fancybox").each(function(){$(this).attr("rel","article")})});$(document).ready(function(){$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']").attr("rel","gallery").fancybox({helpers:{title:{type:"inside"}}})});
+//rebuild by neat 

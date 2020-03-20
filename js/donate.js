@@ -1,34 +1,3 @@
-$(document).ready(function () {
-    var QRBox = $('#QRBox');
-    var MainBox = $('#MainBox');
-    function showQR(QR) {
-        if (QR) {
-            MainBox.css('background-image', 'url(' + QR + ')');
-        }
-        $('#DonateText,#donateBox,#github').addClass('blur');
-        QRBox.fadeIn(300, function (argument) {
-            MainBox.addClass('showQR');
-        });
-    }
-
-    $('#donateBox>li').click(function (event) {
-        var thisID = $(this).attr('id');
-        var thisQR = $(this).attr('qr');
-        if (thisID === 'BTC') {
-            new Clipboard('#BTCBn');
-        }
-        if (thisQR) {
-            showQR(thisQR);
-        }
-    });
-    MainBox.click(function (event) {
-        MainBox.removeClass('showQR').addClass('hideQR');
-        setTimeout(function (a) {
-            QRBox.fadeOut(300, function (argument) {
-                MainBox.removeClass('hideQR');
-            });
-            $('#DonateText,#donateBox,#github').removeClass('blur');
-        }, 600);
-    });
-});
-
+// build time:Fri Mar 20 2020 18:19:30 GMT+0800 (GMT+08:00)
+$(document).ready(function(){var a=$("#QRBox");var o=$("#MainBox");function t(t){if(t){o.css("background-image","url("+t+")")}$("#DonateText,#donateBox,#github").addClass("blur");a.fadeIn(300,function(a){o.addClass("showQR")})}$("#donateBox>li").click(function(a){var o=$(this).attr("id");var n=$(this).attr("qr");if(o==="BTC"){new Clipboard("#BTCBn")}if(n){t(n)}});o.click(function(t){o.removeClass("showQR").addClass("hideQR");setTimeout(function(t){a.fadeOut(300,function(a){o.removeClass("hideQR")});$("#DonateText,#donateBox,#github").removeClass("blur")},600)})});
+//rebuild by neat 
