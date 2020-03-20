@@ -18,8 +18,8 @@
   
   <entry>
     <title>DDE安装</title>
-    <link href="https://0x2ca.github.io/Linux/DDE-Install/"/>
-    <id>https://0x2ca.github.io/Linux/DDE-Install/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/DDE-Install/"/>
+    <id>https://0x2ca.github.io/categories/Linux/DDE-Install/</id>
     <published>2017-08-20T07:57:44.000Z</published>
     <updated>2020-03-18T05:26:17.429Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>CSS3 选择器</title>
-    <link href="https://0x2ca.github.io/Web/CSS3-Selector/"/>
-    <id>https://0x2ca.github.io/Web/CSS3-Selector/</id>
+    <link href="https://0x2ca.github.io/categories/Web/CSS3-Selector/"/>
+    <id>https://0x2ca.github.io/categories/Web/CSS3-Selector/</id>
     <published>2017-08-08T01:34:45.000Z</published>
     <updated>2020-03-18T05:26:05.471Z</updated>
     
@@ -99,8 +99,8 @@
   
   <entry>
     <title>ArchLinux安装指南</title>
-    <link href="https://0x2ca.github.io/Linux/ArchLinux-Installation-Guide/"/>
-    <id>https://0x2ca.github.io/Linux/ArchLinux-Installation-Guide/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/ArchLinux-Installation-Guide/"/>
+    <id>https://0x2ca.github.io/categories/Linux/ArchLinux-Installation-Guide/</id>
     <published>2016-10-04T08:16:04.000Z</published>
     <updated>2020-03-19T09:41:00.955Z</updated>
     
@@ -123,8 +123,8 @@
   
   <entry>
     <title>wine使用及安装</title>
-    <link href="https://0x2ca.github.io/Linux/Wine-Usage-And-Installation/"/>
-    <id>https://0x2ca.github.io/Linux/Wine-Usage-And-Installation/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Wine-Usage-And-Installation/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Wine-Usage-And-Installation/</id>
     <published>2016-10-04T07:41:30.000Z</published>
     <updated>2020-03-18T05:29:47.866Z</updated>
     
@@ -148,8 +148,8 @@
   
   <entry>
     <title>Bash美化</title>
-    <link href="https://0x2ca.github.io/Linux/Bash-Beautify/"/>
-    <id>https://0x2ca.github.io/Linux/Bash-Beautify/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Bash-Beautify/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Bash-Beautify/</id>
     <published>2016-09-03T05:45:14.000Z</published>
     <updated>2020-03-18T05:25:56.575Z</updated>
     
@@ -176,8 +176,8 @@
   
   <entry>
     <title>SSH配置</title>
-    <link href="https://0x2ca.github.io/Linux/SSH-Configuration/"/>
-    <id>https://0x2ca.github.io/Linux/SSH-Configuration/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/SSH-Configuration/"/>
+    <id>https://0x2ca.github.io/categories/Linux/SSH-Configuration/</id>
     <published>2016-09-02T07:53:07.000Z</published>
     <updated>2020-03-18T05:27:24.841Z</updated>
     
@@ -200,8 +200,8 @@
   
   <entry>
     <title>gnome美化</title>
-    <link href="https://0x2ca.github.io/Linux/Gnome-Beautify/"/>
-    <id>https://0x2ca.github.io/Linux/Gnome-Beautify/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Gnome-Beautify/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Gnome-Beautify/</id>
     <published>2016-09-01T23:49:38.000Z</published>
     <updated>2020-03-18T05:26:45.994Z</updated>
     
@@ -226,8 +226,8 @@
   
   <entry>
     <title>软件</title>
-    <link href="https://0x2ca.github.io/Linux/Software/"/>
-    <id>https://0x2ca.github.io/Linux/Software/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Software/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Software/</id>
     <published>2016-08-31T04:50:30.000Z</published>
     <updated>2020-03-18T02:49:57.048Z</updated>
     
@@ -251,8 +251,8 @@
   
   <entry>
     <title>Sudo的安装</title>
-    <link href="https://0x2ca.github.io/Linux/Installation-Of-Sudo/"/>
-    <id>https://0x2ca.github.io/Linux/Installation-Of-Sudo/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Installation-Of-Sudo/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Installation-Of-Sudo/</id>
     <published>2016-08-30T02:18:40.000Z</published>
     <updated>2020-03-18T05:27:15.520Z</updated>
     
@@ -274,8 +274,8 @@
   
   <entry>
     <title>Arch Linux 中文社区仓库</title>
-    <link href="https://0x2ca.github.io/Linux/Arch-Linux-Chinese-Community-Repertory/"/>
-    <id>https://0x2ca.github.io/Linux/Arch-Linux-Chinese-Community-Repertory/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Arch-Linux-Chinese-Community-Repertory/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Arch-Linux-Chinese-Community-Repertory/</id>
     <published>2016-08-30T02:13:31.000Z</published>
     <updated>2020-03-19T09:32:16.511Z</updated>
     
@@ -298,8 +298,8 @@
   
   <entry>
     <title>Steam的安装</title>
-    <link href="https://0x2ca.github.io/Linux/Installation-Of-Steam/"/>
-    <id>https://0x2ca.github.io/Linux/Installation-Of-Steam/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Installation-Of-Steam/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Installation-Of-Steam/</id>
     <published>2016-08-30T01:58:47.000Z</published>
     <updated>2020-03-18T05:27:08.144Z</updated>
     
@@ -322,8 +322,8 @@
   
   <entry>
     <title>Tar命令</title>
-    <link href="https://0x2ca.github.io/Linux/Tar-Command/"/>
-    <id>https://0x2ca.github.io/Linux/Tar-Command/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Tar-Command/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Tar-Command/</id>
     <published>2016-08-29T08:49:56.000Z</published>
     <updated>2020-03-18T05:27:30.608Z</updated>
     
@@ -348,8 +348,8 @@
   
   <entry>
     <title>Git安装与使用</title>
-    <link href="https://0x2ca.github.io/Linux/Git-Usage-And-Installation/"/>
-    <id>https://0x2ca.github.io/Linux/Git-Usage-And-Installation/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Git-Usage-And-Installation/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Git-Usage-And-Installation/</id>
     <published>2016-08-29T07:39:15.000Z</published>
     <updated>2020-03-18T05:26:36.928Z</updated>
     
@@ -371,8 +371,8 @@
   
   <entry>
     <title>Hexo博客搭建</title>
-    <link href="https://0x2ca.github.io/Linux/Hexo-Blog-Build/"/>
-    <id>https://0x2ca.github.io/Linux/Hexo-Blog-Build/</id>
+    <link href="https://0x2ca.github.io/categories/Linux/Hexo-Blog-Build/"/>
+    <id>https://0x2ca.github.io/categories/Linux/Hexo-Blog-Build/</id>
     <published>2016-08-29T06:50:30.000Z</published>
     <updated>2020-03-19T09:36:39.805Z</updated>
     
