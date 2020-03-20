@@ -56,6 +56,10 @@ npm install hexo-wordcount --save
 ```
 npm install hexo-lazyload-image --save
 ```
+9. 构建压缩需要安装
+```
+npm install hexo-neat --save
+```
 ## 项目文件说明
 1. `package.json`hexo环境
     * npm install -g
