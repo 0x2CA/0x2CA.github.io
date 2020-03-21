@@ -29,6 +29,7 @@ if theme.swiftype
     _st('install','#{theme.swiftype}','2.0.0');
 
 if theme.self_search == true
+  link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/search.css' + '?v=' + theme.version)
   script(type='text/javascript', src=url_for(theme.js) + '/search.js' + '?v=' + theme.version)
   script.
      var search_path = '#{config.search.path}';
@@ -63,3 +64,6 @@ if page.mathjax2
 
 script(type='text/javascript', src=url_for(theme.js) + '/codeblock-resizer.js' + '?v=' + theme.version)
 script(type='text/javascript', src=url_for(theme.js) + '/smartresize.js' + '?v=' + theme.version)
+
+link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/dark.css' + '?v=' + theme.version)
+
