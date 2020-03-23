@@ -316,4 +316,8 @@
     .gt-container .gt-header-textarea:hover {
         background: var(--block-background-color) !important;
     }
+    .gt-container .gt-header-preview {
+        border: 1px solid var(--line-background-color) !important;
+        background: var(--block-background-color) !important;
+    }
 }
