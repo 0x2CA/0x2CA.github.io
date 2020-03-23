@@ -49,10 +49,7 @@ if theme.canvas_nest.enable == true
 if theme.love == true
     script(type='text/javascript',src='/js/love.js')
 
-if theme.copycode== true
-    script(type='text/javascript',src='//lib.baomitu.com/clipboard.js/2.0.4/clipboard.min.js')
-    script(type='text/javascript', src='//lib.baomitu.com/toastr.js/2.1.4/toastr.min.js')
-    link(rel='stylesheet', href='//lib.baomitu.com/toastr.js/2.1.4/toastr.min.css')
+if theme.copycode == true
     script(type='text/javascript',src='/js/copycode.js',successtext=__('copy_success_text'))
     link(rel='stylesheet', type='text/css', href='/css/copycode.css')
 
@@ -64,6 +61,6 @@ if page.mathjax2
 
 script(type='text/javascript', src=url_for(theme.js) + '/codeblock-resizer.js' + '?v=' + theme.version)
 script(type='text/javascript', src=url_for(theme.js) + '/smartresize.js' + '?v=' + theme.version)
-
-link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/dark.css' + '?v=' + theme.version)
+if theme.dark== true
+    link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/dark.css' + '?v=' + theme.version)
 
