@@ -88,7 +88,7 @@
         background: var(--block-background-color) !important;
     }
     table th {
-        border-bottom: 2px solid var(--line-background-color);
+        border-bottom: 2px solid var(--line-background-color) !important;
     }
     table tr:nth-child(2n) {
         background: var(--block-background-color) !important;
