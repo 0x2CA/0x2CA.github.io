@@ -1,3 +1,3 @@
-// build time:Fri Mar 20 2020 18:19:30 GMT+0800 (GMT+08:00)
+// build time:Mon Mar 23 2020 09:00:46 GMT+0800 (GMT+08:00)
 $(document).ready(function(){var a=$("#QRBox");var o=$("#MainBox");function t(t){if(t){o.css("background-image","url("+t+")")}$("#DonateText,#donateBox,#github").addClass("blur");a.fadeIn(300,function(a){o.addClass("showQR")})}$("#donateBox>li").click(function(a){var o=$(this).attr("id");var n=$(this).attr("qr");if(o==="BTC"){new Clipboard("#BTCBn")}if(n){t(n)}});o.click(function(t){o.removeClass("showQR").addClass("hideQR");setTimeout(function(t){a.fadeOut(300,function(a){o.removeClass("hideQR")});$("#DonateText,#donateBox,#github").removeClass("blur")},600)})});
 //rebuild by neat 
